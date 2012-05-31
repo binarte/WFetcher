@@ -1,0 +1,1268 @@
+﻿Atualização cumulativa para os Kill Bits do ActiveX para o Windows 7 (KB2695962)
+
+Data da instalação: ‎19/‎05/‎2012 08:59
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Foram identificadas questões de segurança em controle ActiveX que poderiam permitir que um invasor comprometesse um sistema que esteja executando o Microsoft Internet Explorer e ganhasse controle sobre ele. Você pode ajudar a proteger seu sistema instalando esta atualização da Microsoft. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=247537
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização da Lista de Exibição de Compatibilidade do Internet Explorer 8 para Windows 7 (KB2598845)
+
+Data da instalação: ‎19/‎05/‎2012 09:08
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Essa Lista de Exibição de Compatibilidade melhora a visualização de sites projetados para navegadores antigos no Internet Explorer 8. Quando os usuários instalarem o Internet Explorer 8, terão a chance de optar por uma lista de sites que devem ser exibidos na Exibição de Compatibilidade. Depois de instalar esse item, talvez seja preciso reiniciar o Internet Explorer.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=139381
+
+Ajuda e Suporte: 
+http://support.microsoft.com/kb/2598845
+Atualização de segurança cumulativa do Internet Explorer 8 para o Windows 7 (KB2675157)
+
+Data da instalação: ‎19/‎05/‎2012 08:58
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Problemas de segurança foram identificados e podem permitir que um invasor comprometa um sistema que esteja executando o Microsoft Internet Explorer e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois de instalar este item, poderá ser necessário reiniciar o seu computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=242739
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança cumulativa do Internet Explorer 9 para o Windows 7 (KB2675157)
+
+Data da instalação: ‎19/‎05/‎2012 10:40
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Problemas de segurança foram identificados e podem permitir que um invasor comprometa um sistema que esteja executando o Microsoft Internet Explorer e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois de instalar este item, poderá ser necessário reiniciar o seu computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=242739
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança cumulativa para Kill Bits do ActiveX para Windows 7 (KB2618451)
+
+Data da instalação: ‎19/‎05/‎2012 09:09
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Foram identificadas questões de segurança em controle ActiveX que poderiam permitir que um invasor comprometesse um sistema que esteja executando o Microsoft Internet Explorer e ganhasse controle sobre ele. Você pode ajudar a proteger seu sistema instalando esta atualização da Microsoft. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=232507
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Internet Explorer 8 para o Windows 7 (KB2544521)
+
+Data da instalação: ‎19/‎05/‎2012 08:59
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=218115
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 3.5.1 no Windows 7 SP1 x86 (KB2604115)
+
+Data da instalação: ‎19/‎05/‎2012 09:13
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=226971
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 3.5.1 no Windows 7 SP1 x86 (KB2656356)
+
+Data da instalação: ‎19/‎05/‎2012 09:02
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=237378
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 3.5.1 no Windows 7 SP1 x86 (KB2656373)
+
+Data da instalação: ‎19/‎05/‎2012 08:59
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=237402
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 3.5.1 no Windows 7 SP1 x86 (KB2656411)
+
+Data da instalação: ‎19/‎05/‎2012 09:02
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Foi identificada uma questão de segurança que poderia permitir a um invasor violar ou ignorar um recurso de segurança no software afetado. Você pode ajudar a proteger seu sistema instalando esta atualização da Microsoft. Talvez seja necessário reiniciar seu sistema após instalar esta atualização.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=237430
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 4 no Windows XP, Windows Server 2003, Windows Vista, Windows 7 e Windows Server 2008 x86 (KB2604121)
+
+Data da instalação: ‎19/‎05/‎2012 10:39
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=226972
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 4 no Windows XP, Windows Server 2003, Windows Vista, Windows 7 e Windows Server 2008 x86 (KB2656351)
+
+Data da instalação: ‎19/‎05/‎2012 10:25
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=237373
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 4 no Windows XP, Windows Server 2003, Windows Vista, Windows 7 e Windows Server 2008 x86 (KB2656368)
+
+Data da instalação: ‎19/‎05/‎2012 10:35
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=237397
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Microsoft .NET Framework 4 no Windows XP, Windows Server 2003, Windows Vista, Windows 7 e Windows Server 2008 x86 (KB2656405)
+
+Data da instalação: ‎19/‎05/‎2012 10:43
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=237425
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2425227)
+
+Data da instalação: ‎19/‎05/‎2012 09:07
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor adultere uma ação ou comportamento do sistema sem o conhecimento do usuário. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=208523
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2479943)
+
+Data da instalação: ‎19/‎05/‎2012 09:03
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=207841
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2491683)
+
+Data da instalação: ‎19/‎05/‎2012 09:05
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=212226
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2503665)
+
+Data da instalação: ‎19/‎05/‎2012 09:15
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor local autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=217464
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2506212)
+
+Data da instalação: ‎19/‎05/‎2012 08:59
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=212226
+
+Ajuda e Suporte: 
+http://support.microsoft.com/
+Atualização de segurança do Windows 7 (KB2507618)
+
+Data da instalação: ‎19/‎05/‎2012 09:10
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=212224
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2509553)
+
+Data da instalação: ‎19/‎05/‎2012 09:11
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=212595
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2510531)
+
+Data da instalação: ‎19/‎05/‎2012 09:13
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=212243
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2511455)
+
+Data da instalação: ‎19/‎05/‎2012 08:58
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=212314
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2532531)
+
+Data da instalação: ‎19/‎05/‎2012 09:35
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=217102
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2532531)
+
+Data da instalação: ‎19/‎05/‎2012 09:08
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=217102
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2536275)
+
+Data da instalação: ‎19/‎05/‎2012 09:16
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado faça com que o sistema afetado pare de responder. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=215840
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2536276)
+
+Data da instalação: ‎19/‎05/‎2012 09:07
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=215841
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2544893)
+
+Data da instalação: ‎19/‎05/‎2012 09:06
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha acesso a informações. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=217912
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2560656)
+
+Data da instalação: ‎19/‎05/‎2012 09:00
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=221539
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2564958)
+
+Data da instalação: ‎19/‎05/‎2012 09:07
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=221538
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2567680)
+
+Data da instalação: ‎19/‎05/‎2012 09:01
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor local autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=221864
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2570947)
+
+Data da instalação: ‎19/‎05/‎2012 09:02
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=223632
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2579686)
+
+Data da instalação: ‎19/‎05/‎2012 09:09
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=227073
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2584146)
+
+Data da instalação: ‎19/‎05/‎2012 09:05
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=230777
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2585542)
+
+Data da instalação: ‎19/‎05/‎2012 09:01
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha acesso a informações. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=232510
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2619339)
+
+Data da instalação: ‎19/‎05/‎2012 09:04
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=232517
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2620704)
+
+Data da instalação: ‎19/‎05/‎2012 09:10
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=229638
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2620712)
+
+Data da instalação: ‎19/‎05/‎2012 09:03
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor local autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=232663
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2621440)
+
+Data da instalação: ‎19/‎05/‎2012 09:04
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=232664
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2631813)
+
+Data da instalação: ‎19/‎05/‎2012 09:03
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=227487
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2633171)
+
+Data da instalação: ‎19/‎05/‎2012 09:00
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor local autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=232424
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2644615)
+
+Data da instalação: ‎19/‎05/‎2012 09:15
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Foi identificada uma questão de segurança que poderia permitir a um invasor violar ou ignorar um recurso de segurança no software afetado. Você pode ajudar a proteger seu sistema instalando esta atualização da Microsoft. Talvez seja necessário reiniciar seu sistema após instalar esta atualização.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=235999
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2653956)
+
+Data da instalação: ‎19/‎05/‎2012 09:01
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=238623
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2658846)
+
+Data da instalação: ‎19/‎05/‎2012 08:59
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=251038
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2659262)
+
+Data da instalação: ‎19/‎05/‎2012 09:06
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=251038
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2659262)
+
+Data da instalação: ‎19/‎05/‎2012 09:06
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=251038
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2660649)
+
+Data da instalação: ‎19/‎05/‎2012 09:06
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=251038
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2667402)
+
+Data da instalação: ‎19/‎05/‎2012 09:06
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado faça com que o sistema afetado pare de responder. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=232664
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2676562)
+
+Data da instalação: ‎19/‎05/‎2012 09:05
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor remoto não autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=244692
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2688338)
+
+Data da instalação: ‎19/‎05/‎2012 09:07
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor local autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=246964
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização de segurança do Windows 7 (KB2690533)
+
+Data da instalação: ‎19/‎05/‎2012 09:00
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Um problema de segurança foi identificado e pode permitir que um invasor local autenticado comprometa seu sistema e obtenha controle sobre ele. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=247902
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Microsoft .NET Framework 4 no Windows XP, Windows Server 2003, Windows Vista, Windows 7 e Windows Server 2008 x86 (KB2468871)
+
+Data da instalação: ‎19/‎05/‎2012 10:30
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Microsoft .NET Framework 4. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkID=210664
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Microsoft .NET Framework 4 no Windows XP, Windows Server 2003, Windows Vista, Windows 7 e Windows Server 2008 x86 (KB2533523)
+
+Data da instalação: ‎19/‎05/‎2012 10:23
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Esta atualização trata de problemas de estabilidade, confiabilidade e desempenho do Microsoft .NET Framework 4. Talvez seja necessário reiniciar seu computador após instalar este item.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=219466
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Microsoft .NET Framework 4 no Windows XP, Windows Server 2003, Windows Vista, Windows 7 e Windows Server 2008 x86 (KB2600217)
+
+Data da instalação: ‎19/‎05/‎2012 10:45
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Esta atualização trata de problemas de estabilidade, confiabilidade e desempenho do Microsoft .NET Framework 4. Talvez seja necessário reiniciar seu computador após instalar este item.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=232526
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2492386)
+
+Data da instalação: ‎19/‎05/‎2012 09:14
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver um conjunto conhecido de questões de compatibilidade de aplicativos com o Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2492386
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2506928)
+
+Data da instalação: ‎19/‎05/‎2012 09:14
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2506928
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2511250)
+
+Data da instalação: ‎19/‎05/‎2012 09:04
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2511250
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2515325)
+
+Data da instalação: ‎19/‎05/‎2012 09:02
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Esta é uma atualização de confiabilidade. Ela resolve algumas questões de desempenho e confiabilidade do Windows. Ao aplicar esta atualização, o desempenho e a capacidade de resposta podem ser aprimorados em diversos cenários. Para obter mais informações, consulte o artigo da Base de Dados de Conhecimento. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2515325
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2522422)
+
+Data da instalação: ‎19/‎05/‎2012 09:04
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2522422
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2529073)
+
+Data da instalação: ‎19/‎05/‎2012 09:35
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2529073
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2533552)
+
+Data da instalação: ‎19/‎05/‎2012 08:58
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Instale esta atualização para permitir que futuras atualizações sejam instaladas com êxito em todas as edições do Windows 7 ou do Windows Server 2008 R2. Esta atualização pode ser necessária para que futuras atualizações selecionadas possam ser instaladas. Este item não pode ser removido após a instalação.
+
+Mais informações: 
+http://support.microsoft.com/kb/2533552
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2533552)
+
+Data da instalação: ‎19/‎05/‎2012 08:58
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Instale esta atualização para permitir que futuras atualizações sejam instaladas com êxito em todas as edições do Windows 7 ou do Windows Server 2008 R2. Esta atualização pode ser necessária para que futuras atualizações selecionadas possam ser instaladas. Este item não pode ser removido após a instalação.
+
+Mais informações: 
+http://support.microsoft.com/kb/2533552
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2541014)
+
+Data da instalação: ‎19/‎05/‎2012 08:58
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2541014
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2545698)
+
+Data da instalação: ‎19/‎05/‎2012 09:10
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2545698
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2547666)
+
+Data da instalação: ‎19/‎05/‎2012 09:05
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2547666
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2552343)
+
+Data da instalação: ‎19/‎05/‎2012 09:10
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2552343
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2563227)
+
+Data da instalação: ‎19/‎05/‎2012 09:14
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas de confiabilidade e desempenho no Windows. Ao aplicar esta atualização, o desempenho e a capacidade de resposta podem ser aprimorados em diversos cenários. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2563227
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2607576)
+
+Data da instalação: ‎19/‎05/‎2012 09:13
+
+Status da instalação: Êxito
+
+Tipo de atualização: Opcional
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2607576
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2632503)
+
+Data da instalação: ‎19/‎05/‎2012 09:15
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2632503
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2633952)
+
+Data da instalação: ‎19/‎05/‎2012 09:08
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Instale esta atualização para solucionar questões causadas por leis de fuso horário e horário de verão de diversos países. Esta atualização permite que seu computador ajuste automaticamente o relógio na data correta em 2012. Talvez seja necessário reiniciar seu computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2633952
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2640148)
+
+Data da instalação: ‎19/‎05/‎2012 08:59
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2640148
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2641690)
+
+Data da instalação: ‎19/‎05/‎2012 09:03
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Instale esta atualização para resolver uma questão que exija uma atualização da lista de certificados revogados dos sistemas do Windows e para manter sua lista de certificados de sistemas atualizada. Talvez seja necessário reiniciar seu sistema após instalar esta atualização.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=233124
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2660075)
+
+Data da instalação: ‎19/‎05/‎2012 09:09
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2660075
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB2679255)
+
+Data da instalação: ‎19/‎05/‎2012 08:58
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2679255
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização do Windows 7 (KB982018)
+
+Data da instalação: ‎19/‎05/‎2012 09:35
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Esta é uma atualização de confiabilidade. Ela resolve algumas questões de desempenho e confiabilidade do Windows. Ao aplicar esta atualização, o desempenho e a capacidade de resposta podem ser aprimorados em diversos cenários. Para obter mais informações, consulte o artigo da Base de Dados de Conhecimento. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/982018
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização para o Windows 7 (KB2484033)
+
+Data da instalação: ‎19/‎05/‎2012 09:01
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2484033
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização para o Windows 7 (KB2488113)
+
+Data da instalação: ‎19/‎05/‎2012 09:00
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Esta é uma atualização de confiabilidade. Ela resolve algumas questões de desempenho e confiabilidade do Windows. Ao aplicar esta atualização, o desempenho e a capacidade de resposta podem ser aprimorados em diversos cenários. Para obter mais informações, consulte o artigo da Base de Dados de Conhecimento. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2488113
+
+Ajuda e Suporte: 
+http://support.microsoft.com/
+Atualização para o Windows 7 (KB2502285)
+
+Data da instalação: ‎19/‎05/‎2012 08:57
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/KB/2502285
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Atualização para o Windows 7 (KB2505438)
+
+Data da instalação: ‎19/‎05/‎2012 09:11
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+Instale esta atualização para resolver problemas no Windows. Para obter a lista completa dos problemas incluídos nesta atualização, consulte o artigo da Base de Dados de Conhecimento Microsoft associado. Talvez seja necessário reiniciar o computador após instalar este item.
+
+Mais informações: 
+http://support.microsoft.com/kb/2505438
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Definition Update for Windows Defender - KB915597 (Definition 1.127.201.0)
+
+Data da instalação: ‎19/‎05/‎2012 09:05
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Install this update to revise the definition files used to detect spyware and other potentially unwanted software. Once you have installed this item, it cannot be removed.
+
+Mais informações: 
+http://www.microsoft.com/athome/security/spyware/software/about/overview.mspx
+
+Ajuda e Suporte: 
+http://go.microsoft.com/fwlink/?LinkId=52661
+Definition Update for Windows Defender - KB915597 (Definition 1.127.201.0)
+
+Data da instalação: ‎19/‎05/‎2012 08:56
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Install this update to revise the definition files used to detect spyware and other potentially unwanted software. Once you have installed this item, it cannot be removed.
+
+Mais informações: 
+http://www.microsoft.com/athome/security/spyware/software/about/overview.mspx
+
+Ajuda e Suporte: 
+http://go.microsoft.com/fwlink/?LinkId=52661
+Ferramenta de Remoção de Software Mal-intencionado do Windows - maio de 2012 (KB890830)
+
+Data da instalação: ‎19/‎05/‎2012 09:12
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+Após o download, esta ferramenta é executada uma vez para verificar se o seu computador foi infectado por um determinado software mal-intencionado de ampla divulgação (incluindo o Blaster, o Sasser e o Mydoom) e ajuda a remover qualquer infecção encontrada. Se for encontrada uma infecção, a ferramenta exibirá um relatório de status na próxima vez em que você iniciar seu computador. Uma nova versão será oferecida a cada mês. Se você quiser executar manualmente a ferramenta em seu computador, poderá baixar uma cópia do Centro de Download da Microsoft ou executar uma versão online a partir do microsoft.com. Esta ferramenta não substitui nenhum produto antivírus. Para ajudar a proteger seu computador, use um produto antivírus.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=39987
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Microsoft .NET Framework 4 Client Profile para Windows 7 x86 (KB982670)
+
+Data da instalação: ‎19/‎05/‎2012 09:57
+
+Status da instalação: Êxito
+
+Tipo de atualização: Recomendado
+
+O Microsoft .NET Framework 4 Client Profile oferece um subconjunto de recursos do .NET Framework 4. O Client Profile foi desenvolvido para executar aplicativos de cliente e habilitar a implantação mais rápida possível da tecnologia do Windows Presentation Foundation (WPF) e do Windows FormsPerfil.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=191022
+
+Ajuda e Suporte: 
+http://support.microsoft.com
+Windows Internet Explorer 9 para Windows 7
+
+Data da instalação: ‎19/‎05/‎2012 09:44
+
+Status da instalação: Êxito
+
+Tipo de atualização: Importante
+
+O Windows Internet Explorer 9 fornece sites e aplicativos com a mesma aparência e desempenho dos aplicativos de PC nativos através do Windows.
+
+          Rápido: O Internet Explorer 9 é rápido em todos os aspectos. Projetado para tirar total proveito do hardware do PC através do Windows, o Internet Explorer 9 proporciona experiências gráficas valiosas e imersivas com a mesma rapidez e prontidão dos aplicativos nativos instalados no seu PC.
+
+          Simples: O Internet Explorer enfoca os sites que tanto agradam você, conferindo a eles uma aparência organizada e uma maior área de exibição que os coloca em destaque. A integração intuitiva e perfeita com o Windows 7 fornece um acesso de único clique aos aplicativos Web conectados diretamente à barra de tarefas.
+
+          Confiável: O Internet Explorer é o caminho confiável para a Web, pois tem um conjunto robusto de tecnologias internas de segurança, privacidade e confiabilidade que oferece mais segurança e proporciona uma experiência de navegação ininterrupta.
+
+          Interoperável: O suporte a HTML5 e aos padrões modernos da Web arquitetados para utilizar a GPU significa que a mesma marcação não funciona apenas na Web, mas também é executada com mais rapidez e proporciona uma experiência mais avançada através do Windows e do Internet Explorer 9.
+
+Mais informações: 
+http://go.microsoft.com/fwlink/?LinkId=71727
+
+Ajuda e Suporte: 
+http://go.microsoft.com/fwlink/?LinkId=71719

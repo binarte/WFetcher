@@ -1,0 +1,296 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <script type="text/javascript" language="javascript">
+        var uAgent = navigator.userAgent.toLowerCase();
+        var g_IsIE = (uAgent.indexOf("msie") >= 0);
+        var g_IsGecko = (uAgent.indexOf("gecko") >= 0);
+        var g_IsIE5Plus = false;
+        var t_uAgent = uAgent.match('msie [0-9]+');
+        if(t_uAgent)
+        {
+            g_IsIE5Plus = (parseInt(t_uAgent[0].substring(5,t_uAgent[0].length)) >= 5);
+        }
+    </script>
+	
+
+<script type='text/javascript' language='Javascript' src='/downloads/mnp_utility.mspx/menujs?mnpshell=%2fdownloads%2floc%2fpt-br%2fshell.config&amp;displaylang=pt-br&amp;clicktrax=False'></script>
+<link type='text/css' rel='Stylesheet' href='/library/mnp/2/aspx/css.aspx?locale=pt-br&amp;name=Menu&amp;static=Page' />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"><link rel='stylesheet' type='text/css' href='/library/toolbar/3.0/css.aspx?c=/downloads/loc/pt-br/shell.config'/><script language='JavaScript'>var doImage=doImage;var TType=TType;var defaultSearchLable;
+function mhHover(tbl,idx,cls){var t,d;if(document.getElementById)t=document.getElementById(tbl);else t=document.all(tbl);if(t==null)return;if(t.getElementsByTagName)d=t.getElementsByTagName("TD");else d=t.all.tags("TD");if(d==null)return;if(d.length<=idx)return;d[idx].className=cls;}
+function footerjs(doc){};
+var varSegmentation = 0;
+var varClickTracking = 1;
+var varCustomerTracking=1;
+document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'"+"'><\/script>");
+
+
+var rsltextbox = 'msviLSBtbox'; var wtflag = false;
+function stripSymbols () { var objrslttextbox = getObjectById(rsltextbox); if (objrslttextbox) { var form = objrslttextbox.form; var s = objrslttextbox.value; filteredValues = "<>!@^*"; var i; var returnString = ""; for (i = 0; i < s.length; i++) { var c = s.charAt(i); if (filteredValues.indexOf(c) == -1) { returnString += c; } else { returnString += " "; } } objrslttextbox.value = returnString; } if(!wtflag) { trackLSB("Site"); } } 
+function addSubmitEvent() {
+ msviLSBtbox=document.getElementById("msviLSBtbox")
+ if(msviLSBtbox)
+ {
+    defaultSearchLable = msviLSBtbox.value;
+ }
+ var objrslttextbox = getObjectById(rsltextbox); 
+ if (objrslttextbox) 
+ { 
+    var form = objrslttextbox.form;
+     if (window.attachEvent) 
+     { 
+         form.attachEvent("onsubmit",stripSymbols); 
+     }
+     else 
+     { 
+        form.addEventListener("submit",stripSymbols,false);
+     }
+  } 
+} 
+function getObjectById(elid) 
+{ 
+    if (document.getElementById) 
+    { 
+        return document.getElementById(elid); 
+    } 
+    else if (document.all) 
+    { 
+        return document.all[elid]; 
+    } 
+    else if (document.layers) 
+    { 
+        return document.layers[elid];
+    } 
+} 
+if (window.attachEvent) { window.attachEvent("onload",addSubmitEvent); } else { window.addEventListener("load",addSubmitEvent,false); } 
+var FromWeb = false;
+function trackLSB(type)
+{
+
+  clearDefaultSearchLable();
+ 
+  if(type=="Web")
+    FromWeb = true;
+  var tmp = document.getElementById("msviLSBtbox");
+  var errorInfo = document.getElementById("errorInfo");
+  if(type=="Site" && tmp.value.length==0 && !FromWeb)
+  {
+       tmp.value=errorInfo.value;
+       tmp.style.color='#bc2b2b';
+       ajustWidth();
+  }
+  if (typeof dcsMultiTrack == "function")
+  { 
+      var qu = document.getElementById("msviLSBtbox").value;
+      var dcsuri = "results.aspx";
+      var dcssip, ti;
+      if (type == "Site")
+      {
+        dcssip = "search.microsoft.com";
+        ti = "SearchButton: OnSite"; 
+      }
+      else if (type == "Web")
+      {
+         dcssip = "bing.com";
+         ti = "SearchButton: Web";
+      }
+      dcsMultiTrack("DCS.dcsuri", dcsuri, "DCS.dcssip", dcssip, "WT.ti", ti, "WT.dl", "2", "WT.z_srch_t", qu, "DCS.dcsqry", "", "WT.ad", "", "WT.mc_id", ""); 
+      wtflag = true; DCS.dcsuri=DCS.dcssip=DCS.dcsqry=WT.ti=WT.z_srch_t="";
+  }
+}
+
+var isInputqu = false;
+var searchBoxWidthWithKievLogo = 0;
+var searchBoxWidthWithoutKievLogo = 0;
+function clearDefaultSearchLable()
+{var searchBox = document.getElementById("msviLSBtbox");
+if(!isInputqu){searchBox.value = "";}}
+var kievImageWidth = 47;
+var isAdTboxWidth = false;
+var isInitailed = false;
+function ajustWidth()
+{
+    var searchBoxInput = document.getElementById("msviLSBtbox");
+    var kievImage = document.getElementById("msviLSBlogo");
+    if(!isInitailed)
+    {
+         searchBoxWidthWithKievLogo = searchBoxInput.style.width;
+         searchBoxWidthWithoutKievLogo = searchBoxInput.clientWidth + (kievImageWidth - 1);
+         isInitailed = true;
+    }
+    var width = kievImage.clientWidth-1;
+    kievImage.style.width = '1px';
+    var tBoxAloneWidth = searchBoxInput.clientWidth + width;
+    searchBoxInput.style.width = tBoxAloneWidth;
+    isAdTboxWidth = true;
+    
+      
+    
+}
+
+function searchBoxFocused(defaultSearchLabel)
+{
+    var searchBoxInput = document.getElementById("msviLSBtbox");
+    var kievImage = document.getElementById("msviLSBlogo");
+    if(searchBoxInput.value == defaultSearchLabel || searchBoxInput.value==document.getElementById("errorInfo").value)
+    {
+        searchBoxInput.value = '';
+        searchBoxInput.style.fontStyle = '';
+        searchBoxInput.style.color='#000000';
+        kievImage.style.width = '1px';
+        if(searchBoxWidthWithKievLogo == 0 && !isAdTboxWidth &&!isInitailed)
+        {
+            searchBoxWidthWithKievLogo = searchBoxInput.style.width;
+            searchBoxWidthWithoutKievLogo = searchBoxInput.clientWidth + (kievImageWidth - 1);
+            isInitailed = true;
+        }
+        searchBoxInput.style.width = searchBoxWidthWithoutKievLogo;
+    }
+}
+
+function searchBoxBlur(defaultSearchLabel)
+{
+    var searchBoxInput = document.getElementById("msviLSBtbox");
+    var kievImage = document.getElementById("msviLSBlogo");
+    if(searchBoxInput.value.replace(/(^\s*)|(\s*$)/g, '')=='') 
+    {
+        searchBoxInput.value=defaultSearchLabel;searchBoxInput.style.fontStyle ='Italic';
+        searchBoxInput.style.color = "#a1a1a1";
+        kievImage.style.width = kievImageWidth;
+        
+        searchBoxInput.style.width = searchBoxWidthWithKievLogo;
+        isInputqu = false;
+     }
+     else
+     {
+        isInputqu = true;
+     }
+}
+
+function Test()
+{
+    var searchBox = document.getElementById(rsltextbox);
+    var go = document.getElementById("errorInfo");
+    if(searchBox.value==go.value)
+        return false;
+    return true; 
+}</script><meta name="WT.sp" content="_downloads_" /><script language='JavaScript' src='http://js.microsoft.com/library/svy/broker.js'></script><link rel="STYLESHEET" type="text/css" href="http://img.microsoft.com/downloads/loc/pt-br/main.css">
+	
+	<style name="Menu" directional="true">
+		.mnpMenuLabel
+		{
+			font: bold 80% Verdana;
+		}
+		.mnpMenuRow
+		{
+			font: 80% Verdana;
+		}
+	</style>
+    <link type="text/css" rel="stylesheet" href="/downloads/includes/common.css" /><meta name="ms.locale" content="pt-br" /><meta name="Description" content="Foi identificado um problema de seguran&amp;#231;a que pode permitir que um invasor adultere uma a&amp;#231;&amp;#227;o ou comportamento do sistema sem o conhecimento do usu&amp;#225;rio." /><title>
+	Detalhes do download: Atualiza&#231;&#227;o de seguran&#231;a para o Windows 7 (KB2425227)
+</title></head>
+<body>
+	<basefont face="Verdana, Arial, Helvetica"/>
+	<a name="top"></a>
+	
+	
+		<!--NOINDEX_START--><script language="Javascript">
+				if (self.name == "MNPMainFrame") top.location.href = self.location.href;
+			</script><div id="msviMasthead"><table cellpadding="0" cellspacing="0" width="100%" border="0"><tr><td width="100%"><table cellpadding="0" cellspacing="0" width="100%" height="22" border="0"><tr><td id="msviMarketing" bgcolor="#4B92D9" nowrap=""><a href="http://go.microsoft.com/fwlink/?LinkID=92799">Clique aqui para instalar o Silverlight</a></td><td width="100%" bgcolor="#1E77D3"><img src="/library/toolbar/3.0/gradient.aspx?a=4B92D9&amp;b=1E77D3&amp;w=250&amp;h=22&amp;d=ltr&amp;c=eFLbOmyDquZL7nbgTLBSftxozLo%3d" width="250" height="22" alt="*" title=""></td></tr></table></td><td id="msviGlobalToolbar" bgcolor="#1E77D3" height="22" nowrap="" dir="ltr" align="left"><table cellpadding="0" cellspacing="0" border="0"><tr><td id="msviRegionId" nowrap>Brasil</td><td id="msviRegionSelector" nowrap><a href="http://www.microsoft.com/worldwide">Alterar</a></td><td class="gtsep">|</td><td id="msviSiteMap" nowrap><a href="http://www.microsoft.com/pt/br/sitemap.aspx">Todos os sites da Microsoft</a></td><td class="msviPPSpace"></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" border="0"><tr valign="top"><td><table cellpadding="0" cellspacing="0" width="100%" height="42" border="0" style="height:expression(parentElement.parentElement.parentElement.parentElement.offsetHeight)"><tr valign="top"><td id="msviBrandBanner" bgcolor="0A6CCE"><a href="http://www.microsoft.com/brasil/"><img src="/library/toolbar/3.0/images/banners/ms_masthead_ltr.gif" width="136" height="42" alt="Microsoft" title="" border="0"></a></td></tr></table></td><td id="msviGlobalSearch" width="100%" bgcolor="#FFFFFF"><div class="msviLSBsform"><form id="msviLSBForm" action="/library/toolbar/3.0/search.aspx" target="_top"><div id="msKiev"><input type="hidden" name="View" value="pt-br"><input type="hidden" name="charset" value="utf-8"><input id="msviLSBtbox" style="font-style:italic; color:#a1a1a1" onkeydown="if(event.keyCode == 13)searchBoxBlur('Pesquisa Microsoft.com')" onfocus="searchBoxFocused('Pesquisa Microsoft.com')" onblur="searchBoxBlur('Pesquisa Microsoft.com')" type="text" name="qu" value="Pesquisa Microsoft.com" autocomplete="off"><span id="msviLSBlogo" class="msviLSBlogo" title="resultados por Bing"></span><input id="msviLSBssearch" title="Pesquisa Microsoft.com" type="image" name="site" src="/library/toolbar/3.0/images/LSB/Search_icon.gif" align="absmiddle" onclick="trackLSB('Site')"></div><input id="msviLSBWeb" title="Pesquisar na Web" name="sweb" type="submit" value="" onclick="trackLSB('Web')" align="absmiddle"></form></div></td></tr></table><table id="msviSubbanner" bgcolor="#003399" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td><img src="/library/toolbar/3.0/subbanner.aspx?text=Q2VudHJvIGRlIERvd25sb2Fk&amp;fore=FFFFFF&amp;b=003399&amp;s=5A7CBC&amp;r=False&amp;font=Segoe%2c+13pt&amp;v=0&amp;c=NiC9x2RPrghqAX%2bnBRbBhr7PGlk%3d" width="467" height="26" alt="Centro de Download" title="" border="0" /></td><td width="100%">&nbsp;</td></tr></table></div>
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" dir="LTR">
+				<tr valign="top">
+		<td height="100%" style="overflow-x: hidden" width="181">
+  <div id="mnpMenuTop" class="mnpMenuTop" style="overflow-x: hidden; width: 181px" url="/downloads/details.aspx" dir="LTR"><div class="mnpInherit"><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Search.aspx?displaylang=pt-br">Home do Centro de Download</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuLabel">Famílias de produtos</div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=38DF6AB1-13D4-409C-966D-CBE61F040027">Windows</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=4289AE77-4CBA-4A75-86F3-9FF96F68E491">Office</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=E49D77BF-D5AE-4EC6-9DFA-D7A19DBA995E">Servers</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=67D35328-CB42-4879-A35A-D59E94D9DACA">Business Solutions</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=C0037913-9E11-4A2D-8FD1-0BA441296CBC">Developer Tools</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=6C813870-3691-48E1-AAAC-64ACCD85E022">Windows Live</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=BEAE32B8-4A67-4F78-BF4E-C114F922F1EA">MSN</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=66FB9844-5799-43C0-8CBF-FCC7C9BE7480">Games &amp; Xbox</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;productID=7C1FA894-B2C5-41BE-8D97-E145DD2A883B">Windows Mobile</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Products.aspx?displaylang=pt-br">Todos os Produtos</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuLabel">Categorias de Download</div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=1">Jogos</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=2">DirectX</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=6">Internet</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=7">Windows (atualizações &amp; segurança)</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=4">Windows Media</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=3">Drivers</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=9">Aplicativos domésticos e para escritório</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=8">Dispositivos móveis</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=5">Macintosh &amp; outras plataformas</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=12">Ferramentas de gerenciamento de sistema</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/Browse.aspx?displaylang=pt-br&amp;categoryid=10">Recursos em desenvolvimento</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuLabel">Recursos de Download</div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/render.aspx?displaylang=pt-br&amp;content=help">FAQ da Central de Download</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/render.aspx?displaylang=pt-br&amp;content=relatedsites">Sites Relacionados</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuLabel">Microsoft Update Services</div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/render.aspx?displaylang=pt-br&amp;content=updateservices">Update Services</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuLabel">Notificações de Download</div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/render.aspx?displaylang=pt-br&amp;content=notifications">Inscrição para Receber Notificações</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuLabel">Downloads Internacionais</div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/downloads/wwlist.aspx?displaylang=pt-br">Países e Regiões</a></div><div class="mnpMenuBorder" style="width: 180px; margin-bottom: 0px"></div></div></div>
+  <div class="mnpAds" style="width: 181px; height: 100%; padding-bottom: 20px; background: #F1F1F1; border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px">
+    <center><script type="text/javascript" src=""></script></center>
+  </div>
+</td>
+          <td width="100%" dir="LTR">
+        <!--NOINDEX_STOP-->
+	<div id="quicksearch"><div style="display:none" id="ctagDiv">
+<script type="text/javascript">
+<!--
+var cGif='<'+'img width="0" height="0" alt="" src="http://c1.microsoft.com'+'/c.gif?DI=10139"/>';document.writeln(cGif);
+//-->
+</script></div><form action="info.aspx"><input type="hidden" name="na" value="20"><input type="hidden" name="p" value="0"><input type="hidden" name="u" value="results.aspx"><input type="hidden" name="SrcDisplayLang" value="pt-br"><input type="hidden" name="SrcCategoryId" value=""><input type="hidden" name="SrcFamilyId" value="ffed7c76-0b75-4f57-9b63-3961a8b449f6"><input type="hidden" name="f" value="f"><table cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td><span>Pesquisar</span></td>
+        <td><select name="pocId"><option value="">Todos os Downloads</option>
+            <option disabled class="disabled">   Por Grupo de Produtos</option>
+            <option value="67D35328-CB42-4879-A35A-D59E94D9DACA">      Business Solutions</option>
+            <option value="C0037913-9E11-4A2D-8FD1-0BA441296CBC">      Developer Tools</option>
+            <option value="66FB9844-5799-43C0-8CBF-FCC7C9BE7480">      Games & Xbox</option>
+            <option value="BEAE32B8-4A67-4F78-BF4E-C114F922F1EA">      MSN</option>
+            <option value="4289AE77-4CBA-4A75-86F3-9FF96F68E491">      Office</option>
+            <option value="E49D77BF-D5AE-4EC6-9DFA-D7A19DBA995E">      Servers</option>
+            <option value="38DF6AB1-13D4-409C-966D-CBE61F040027">      Windows</option>
+            <option value="6C813870-3691-48E1-AAAC-64ACCD85E022">      Windows Live</option>
+            <option value="7C1FA894-B2C5-41BE-8D97-E145DD2A883B">      Windows Mobile</option>
+            <option disabled class="disabled">   Por Categoria</option>
+            <option value="9">      Aplicativos domésticos e para escritório</option>
+            <option value="2">      DirectX</option>
+            <option value="8">      Dispositivos móveis</option>
+            <option value="3">      Drivers</option>
+            <option value="12">      Ferramentas de gerenciamento de sistema</option>
+            <option value="6">      Internet</option>
+            <option value="1">      Jogos</option>
+            <option value="5">      Macintosh & outras plataformas</option>
+            <option value="10">      Recursos em desenvolvimento</option>
+            <option value="7">      Windows (atualizações & segurança)</option>
+            <option value="4">      Windows Media</option></select><input type="text" name="freetext" maxlength="60" class="textinput" value="" /><input class="searchBtn" type="submit" value="Ir"><br><input type="checkbox" name="DisplayEnglishAlso" id="DisplayEnglishAlso" title="Exibir Também Downloads em Inglês"><label for="DisplayEnglishAlso">Exibir Também Downloads em Inglês</label><a href="info.aspx?na=26&amp;p=&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=advancedsearch.aspx%3fdisplaylang%3dpt-br">Pesquisa Avançada</a><input type="hidden" name="DisplayLang" value="pt-br"></td>
+      </tr>
+    </table>
+  </form>
+</div>
+	
+
+<div id="details" class="pageMargin">
+    <form name="aspnetForm" method="post" action="details.aspx?familyid=FFED7C76-0B75-4F57-9B63-3961A8B449F6&amp;displaylang=pt-br" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTUxNjAzNzE4MWRkGTav/J22+AVUL4IXuBMIkWDM974=" />
+
+
+<script src="/downloads/ScriptResource.axd?d=48-cNKJ6c2zLso7tbrQYi8piibtc9CzUWwGxheA0w66RYJG8YgMX0fi0LpkXmh-c3OQIiaQdAoIzhrkRsgWAiyjZSdTzjDV4AF0azQf4EiosAOFaT_jRf9lJ54w5KvgLiK34BD7Bjf6h-4lLjNtI6hG_Sek1&amp;t=ffffffffb868b5f4" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=HgiXHkj1Q4zR6LHstRshdPD3QkgBRpbelfLcmOUDFr7sDLrbU4NfvB3ZDVTMsB_X9E830PLFyNy5DkDJGeajMSLUVIUd5tdfDfjUB7-tWlNI2iGmgBQgoVf1NYIBXWC6OHC6G7gTDZbbSqiFaGEj3oaQtalLYBc1MTrRrz70YWiFQJkkACIPGRboJhvhCDxb1cic0w2&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=ySlwCWryohwp5ybv0pNsnDFGeo5PAN5fQn0YIZcfmKAFLSKhAlZbd3Xhul0rBEpqmekNFO4sW9jJlNwg7oQQ-xfIcM0Fg584LKhCBSCl2OvSgoWh-meSQgcIFMx3T64kyybVno7bvvpWA8EDtBiwym_t2O4fOEhjp3TmUNk5ukAp3NHHpxqiAqvTOEiM35iIKKUc1g2&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=YQX-R-0ad1mJxNlJgMTqPz0rkEOHrNEwpqNBDV6uaQuzGSFGqdiT8qXbWnqsqKkgloiaxTncK5y-SJeHlkQz8WtSIKZDD4-ilW62GqYUB_uxitEngJwTEfsbYEFcSJ0iYhV04ey97179Ytr69Ieo6QXANvtuW1beRJXu_LqrZ7O-KsDlSd1z2PJQRHEMUOvJmDQ7eQrKHtzcuv5fUPyyL_JpOxU1&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=8DM0K0KiEVa4wOFF1yLFLSC6ksRg5Tx_VlxzTkYrr0NJ7-Oou2psz-9dA4IW7PyQBzYUmXqaOjpSrLzWXCJKjTfojge5ay5qYBBDbmqlhJbSrg5i-lEN6f81GRDM0RiFr3BgxqzDIyJslLMGOTG47ww1NL4N92hSCrVCUipqUF-ArcNm-DgzBwqItb9aHy0C_npiTg2&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=gz-2qYz6YFIjtuFefe8huYaQb75oSkzafDLEE2y5kGFdu1qG7sAGqn6QoMJ34eLSMfONV6ErFMTwkjMxf3teMgUcvwpxzu3GnWBttoDVEaRkRjBaVVtGT_3Hhqf7AH82xJoIG1kUkgTklZy85csIVpWsa-IuUe7qUGINCfa_iaB0_mOgM-6uf8dWMcbNo85A0nlmsqe6wYOou83YPLNEZ9NRYMs1&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=dSdXKw86g-48uyq4W_dE2NgwYoVjJpPdeBlLsmmVW42tSQDMqdhB0FcqoUGWHX4e9NBa0ZJuKON9qfH1N7h8HOd6IDvASWRG9sRVtnFUsxarGnhr1Hu5txhdenkxiKXuvVuI8lAELtmf4DTea_MA63rU4CsmYMIyZgL7dZhJ0rh5Yc1JFsAewiXHY2UlKYMScEerWHFMM1RX6IauteZf71O4log1&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=We2W98CtCbcdLiv-fzUmcML0SwCyrEIyx6Y0hEnK6RHKXX9fXsMe6RY6X-LmTw5jynikB4PIVhTGINNgJDO9_E0ZIqJPKerGP-sFVXC_I9GfO4EyeU3matsbFO54SN--B5xAEQL36CjcIgKmheYnV8ga2OS65zsZTAIxktUcuzEQmjUpEGR65NF4e1RtGx0bDVtz-M5d2I7yetVE4g4VdttpBDU1&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=lZahm3z6PLSCWbqn1yq8lRWdKtbyyPzRcNLBrBAga9SOFdh95XYQ2Fk2_G-AAezwBbZR2JnPkzjSkHYWD3Vca5sSfMGPFLI1m6DBc-pXtBIac7t0ckhSHpfAH6zZWkLqHP-KxklCI3J3LSpmjBJw-Ecd4iEjQbFtygQcDjfyu_yFyngT6lXTNlmXcs6zH_GplOZYDQ2&amp;t=596f116c" type="text/javascript"></script>
+<script src="/downloads/ScriptResource.axd?d=IKkABHbrWeBPO3kIbJ5PyGqD2avnuqn1wDnRmOohL95dmnGu5kXVNmx0dJhwzwhT8jXXDRxhJ4yMKf5A3A1DGWSpoX3KeOpRxZD3t6qWXaEZ3KPMy_DKu3poz4npz4_qUP1R-O009iToOxEj75hejuViyJEOK-Z2kkZT9Sn12zeWOWFLQUdCKNl-2DM4LcefLEPA2P87wG1_pQ8DvEK-INHQHqg1&amp;t=596f116c" type="text/javascript"></script>
+        <div id="ctl00_BodyContent_DMControlls"></div>
+    </form>
+	<div id="detailsThankyouIntro"><div id="logo"><a href="info.aspx?na=67&amp;p=&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=http%3a%2f%2fupdate.microsoft.com"><img width="56" height="97" src="img/MU.gif" alt="Windows Update" title="Windows Update"></a><h4>Windows Update</h4><p>Verifique no computador atualizações necessárias para Windows e Office</p></div><h1>Atualização de segurança para o Windows 7 (KB2425227)</h1><h5>Descrição Resumida</h5><div id="quickDescription">Foi identificado um problema de segurança que pode permitir que um invasor adultere uma ação ou comportamento do sistema sem o conhecimento do usuário.</div></div><h4 class="featureTitle2">Nesta Página</h4><div id="onthispage" class="detailsContent"><div><a href="#QuickInfoContainer">Detalhes Rápidos</a></div><div><a href="#Overview">Visão Geral</a></div><div><a href="#Requirements">Requisitos do Sistema:</a></div><div><a href="#Instructions">Instruções de Download:</a></div><div><a href="#AdditionalInfo">Informações adicionais</a></div><div><a href="#RelatedLinks">Recursos Relacionados</a></div><div><a href="#AffinityDownloads">O que outras pessoas estão baixando</a></div></div><div id="unRestricted"><a name="QuickInfoContainer"></a><div class="topCorners"><div class="l1"></div><div class="l2"></div><div class="l3"></div><div class="l4"></div></div><div id="quickInfoHeader"><form type="get" class="GetForm" id="quickCheck" name="quickCheck" onsubmit="javascript: document.getElementById('btnDownload').disabled=true; setTimeout('document.getElementById(\'btnDownload\').disabled=false', 5000); if (g_IsIE) {window.open('http://download.microsoft.com/download/4/4/7/4475536D-1157-48A4-BBFC-12DF75BB8DAA/Windows6.1-KB2425227-x86.msu',null,'toolbar=0,location=no,directories=0,status=0,scrollbars=yes,resizable=1,width=1,height=1,top=0,left=0');}" action="info.aspx"><input type="hidden" name="na" value="41"><input type="hidden" name="p" value="0"><input type="hidden" name="u" value="thankyou.aspx"><input type="hidden" name="SrcDisplayLang" value="pt-br"><input type="hidden" name="SrcCategoryId" value=""><input type="hidden" name="SrcFamilyId" value="ffed7c76-0b75-4f57-9b63-3961a8b449f6"><input type="hidden" name="f" value="f"><input type="hidden" name="familyId" value="ffed7c76-0b75-4f57-9b63-3961a8b449f6"><input type="hidden" name="displayLang" value="pt-br"><script type="text/javaScript" language="javascript">document.write('<input type="hidden" name="oRef" value="' + document.referrer.replace(/"/gi,'') + '" />');</script><input id="btnDownload" type="submit" class="infodownloadButton" value="Fazer Download"></form><div></div></div><div id="quickInfoContents"><h5>Detalhes Rápidos</h5><table cellpadding="0" cellspacing="0" border="0"><tr><td class="quickInfoName">Nome do arquivo:</td><td class="quickInfoValue">Windows6.1-KB2425227-x86.msu</td></tr><tr><td class="quickInfoName">Versão:</td><td class="quickInfoValue">2425227</td></tr><tr><td class="quickInfoName">Boletins de segurança:</td><td class="quickInfoValue"><a href="info.aspx?na=48&p=1&SrcDisplayLang=pt-br&SrcCategoryId=&SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&u=http%3a%2f%2fwww.microsoft.com%2ftechnet%2fsecurity%2fbulletin%2fMS11-013.mspx">MS11-013</a> </td></tr><tr><td class="quickInfoName">Artigos da Base de Dados de Conhecimento:</td><td class="quickInfoValue"><a href="info.aspx?na=49&p=1&SrcDisplayLang=pt-br&SrcCategoryId=&SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&u=http%3a%2f%2fsupport.microsoft.com%2f%3fkbid%3d2425227">KB2425227</a> </td></tr><tr><td class="quickInfoName">Data de Publicação:</td><td class="quickInfoValue">7/2/2011</td></tr><tr><td class="quickInfoName">Idioma:</td><td class="quickInfoValue">Português (Brasil)</td></tr><tr><td class="quickInfoName">Tamanho do Download:</td><td class="quickInfoValue">459 KB</td></tr><tr><td class="quickInfoName">Tempo Estimado de Download: </td><td class="quickInfoValue" id="staticEstimate">2 min  56K</td></tr><tr><td colspan="2"><hr></td></tr><tr><td class="quickInfoName"><b>Alterar Idioma:</b></td><td class="quickInfoValue"><form class="GetForm" action="info.aspx"><input type="hidden" name="na" value="42"><input type="hidden" name="p" value="0"><input type="hidden" name="u" value="details.aspx"><input type="hidden" name="SrcDisplayLang" value="pt-br"><input type="hidden" name="SrcCategoryId" value=""><input type="hidden" name="SrcFamilyId" value="ffed7c76-0b75-4f57-9b63-3961a8b449f6"><input type="hidden" name="f" value="f"><select name="displaylang" class="ContainerListBox" onchange="javascript:setChangeLanguageButtonState(this)"><option value="de">Alemão</option><option value="ar">Árabe</option><option value="bg">Búlgaro</option><option value="zh-hk">Chinês (RAE de Hong Kong)</option><option value="zh-cn">Chinês (Simplificado)</option><option value="zh-tw">Chinês (Tradicional)</option><option value="ko">Coreano</option><option value="hr">Croata</option><option value="da">Dinamarquês</option><option value="sk">Eslovaco</option><option value="sl">Esloveno</option><option value="es">Espanhol</option><option value="et">Estoniano</option><option value="fi">Finlandês</option><option value="fr">Francês</option><option value="el">Grego</option><option value="he">Hebraico</option><option value="nl">Holandês</option><option value="hu">Húngaro</option><option value="en">Inglês</option><option value="it">Italiano</option><option value="ja">Japonês</option><option value="lv">Letão</option><option value="lt">Lituano</option><option value="no">Norueguês (Bokmål)</option><option value="pl">Polonês</option><option value="pt-br" selected>Português (Brasil)</option><option value="pt-pt">Português (Portugal)</option><option value="ro">Romeno</option><option value="ru">Russo</option><option value="sr">Sérvio (latino)</option><option value="sv">Sueco</option><option value="th">Tailandês</option><option value="cs">Tcheco</option><option value="tr">Turco</option><option value="uk">Ucraniano</option></select>
+			 <input id="btnChangeLanguage" type="SUBMIT" value="Alterar"> 
+
+			<script type="text/javaScript" language="javascript">
+				function setChangeLanguageButtonState(dropdown){
+					if (document.getElementById){
+						if (dropdown.options[dropdown.selectedIndex].value!="pt-br") document.getElementById("btnChangeLanguage").disabled=false;
+						else document.getElementById("btnChangeLanguage").disabled=true;
+					}
+				}
+				
+				if (document.getElementById) document.getElementById("btnChangeLanguage").disabled = true;
+			</script><input type="hidden" name="FamilyID" value="ffed7c76-0b75-4f57-9b63-3961a8b449f6"></form></td></tr></table></div><div class="bottomCorners"><div class="l4"></div><div class="l3"></div><div class="l2"></div><div class="l1"></div></div></div><div id="otherDownloadInfo"><a name="Overview"></a><h4>Visão Geral</h4><div class="downloadInfo"><a name="Description"></a><span>Um problema de segurança foi identificado e pode permitir que um invasor adultere uma ação ou comportamento do sistema sem o conhecimento do usuário. Você pode ajudar a proteger o seu sistema instalando esta atualização da Microsoft. Depois da instalação, poderá ser necessário reiniciar o computador.</span></div><p class="topOfPage"><img src="http://img.microsoft.com/downloads/img/arrow_px_up.gif" align="bottom" alt="">&nbsp;<a href="#top" class="inline">Início da página</a></p><a name="Requirements"></a><h4>Requisitos do Sistema:</h4><div class="downloadInfo"><span><ul><li><b>Sistemas Operacionais com Suporte: </b>Windows 7</li></ul><br/></span></div><p class="topOfPage"><img src="http://img.microsoft.com/downloads/img/arrow_px_up.gif" align="bottom" alt="">&nbsp;<a href="#top" class="inline">Início da página</a></p><a name="Instructions"></a><h4>Instruções de Download:</h4><div class="downloadInfo"><span><ol><li>Para iniciar o download, clique no botão <b>Download</b> e siga um dos seguintes procedimentos, ou selecione outro idioma em <b>Alterar Idioma</b> e clique em <b>Alterar</b>.</li><ul><li>Clique em <b>Executar</b> para iniciar a instalação imediatamente.</li><li>Clique em <b>Salvar</b> para copiar o download para seu computador e instalá-lo posteriormente.</li></ul></ol></span></div><p class="topOfPage"><img src="http://img.microsoft.com/downloads/img/arrow_px_up.gif" align="bottom" alt="">&nbsp;<a href="#top" class="inline">Início da página</a></p><a name="AdditionalInfo"></a><h4>Informações adicionais</h4><div class="downloadInfo"><span><a name="AdditionalInfo"></a><b>Estão disponíveis outras atualizações de segurança críticas:</b> Para encontrar as atualizações de segurança mais recentes, visite o site <a HREF="http://update.microsoft.com">Windows Update</a> e clique em <b>Instalação Expressa</b>. Para que as atualizações de segurança mais recentes sejam entregues diretamente no seu computador, visite o site <a HREF="http://go.microsoft.com/fwlink/?LinkId=82023">Segurança em Casa</a> e siga as etapas para garantir a sua proteção.</span></div><p class="topOfPage"><img src="http://img.microsoft.com/downloads/img/arrow_px_up.gif" align="bottom" alt="">&nbsp;<a href="#top" class="inline">Início da página</a></p></div><a name="RelatedLinks"></a><div id="relatedLinks"><h4>Recursos Relacionados</h4><div class="detailsContent"><ol><li><a href="info.aspx?na=40&amp;p=1&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=http%3a%2f%2fgo.microsoft.com%2ffwlink%2f%3fLinkId%3d208523+">Boletim de segurança da Microsoft</a></li></ol></div></div><p class="topOfPage"><img src="http://img.microsoft.com/downloads/img/arrow_px_up.gif" align="bottom" alt="">&nbsp;<a href="#top" class="inline">Início da página</a></p><a name="AffinityDownloads"></a><div id="affinity"><h4>O que outras pessoas estão baixando</h4><div class="detailsContent">Pessoas que baixaram <b>Atualização de segurança para o Windows 7 (KB2425227)</b> também baixaram:<ol><li><a href="info.aspx?na=47&amp;p=1&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=details.aspx%3ffamilyid%3d1BE77DAA-29B1-4DAE-A87F-2CB8F7E6A305%26displaylang%3dpt-br">Atualização de segurança para o Windows 7 (KB2479943)</a></li><li><a href="info.aspx?na=47&amp;p=2&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=details.aspx%3ffamilyid%3d16B0195C-84D3-4C08-8B98-FF2C80D144E1%26displaylang%3dpt-br">Atualização de segurança do Windows 7 (KB2621440)</a></li><li><a href="info.aspx?na=47&amp;p=3&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=details.aspx%3ffamilyid%3d6BC168D9-6664-41FB-914F-DBD7514A4B0E%26displaylang%3dpt-br">Atualização de segurança do Windows 7 (KB2560656)</a></li><li><a href="info.aspx?na=47&amp;p=4&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=details.aspx%3ffamilyid%3d0DCBA089-19F7-46CA-9E52-24EAEBAD4715%26displaylang%3dpt-br">Atualização de segurança do Windows 7 (KB2511455)</a></li><li><a href="info.aspx?na=47&amp;p=5&amp;SrcDisplayLang=pt-br&amp;SrcCategoryId=&amp;SrcFamilyId=ffed7c76-0b75-4f57-9b63-3961a8b449f6&amp;u=details.aspx%3ffamilyid%3d0F433F2C-C61D-461D-AF9C-0145AF4B72AB%26displaylang%3dpt-br">Atualização de segurança do Windows 7 (KB2585542)</a></li></ol></div></div><p class="topOfPage"><img src="http://img.microsoft.com/downloads/img/arrow_px_up.gif" align="bottom" alt="">&nbsp;<a href="#top" class="inline">Início da página</a></p><div style="display:none" id="ctagDiv">
+<script type="text/javascript">
+<!--
+var cGif='<'+'img width="0" height="0" alt="" src="http://c1.microsoft.com'+'/c.gif?DI=10139"/>';document.writeln(cGif);
+//-->
+</script></div>
+</div>
+<div id="embedDiv"></div>
+
+	
+					</td>
+		
+				</tr>
+			</table>
+		<!--NOINDEX_START-->
+<br clear="all" style="line-height: 1px; overflow: hidden"><table id="msviFooter" width="100%" cellpadding="0" cellspacing="0"><tr valign="bottom"><td id="msviFooter2" style="filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#3F8CDA', gradientType='1')"><div id="msviLocalFooter"><nobr><a href="http://g.msn.com/mh_mshp_pt-BR/98765?http://support.microsoft.com/contactus/?ws=support&amp;ln=pt-br&amp;&amp;HL=Fale Conosco&amp;CM=Footer&amp;CE=h" target="_top">Fale Conosco</a> |</nobr><wbr></wbr><nobr><a href="http://go.microsoft.com/?linkid=2028325" target="_parent">Contate-nos</a></nobr></div><div id="msviGlobalFooter"><span dir="ltr">&#169;2012 Microsoft Corporation. Todos os direitos reservados.&nbsp;</span><nobr><a href="http://support.microsoft.com/contactus/?ws=mscom" target="_parent">Entre em contato</a> |</nobr><wbr></wbr><nobr><a href="http://www.microsoft.com/brasil/misc/cpyright.htm" target="_parent">Nota Legal</a> |</nobr><wbr></wbr><nobr><a href="http://www.microsoft.com/library/toolbar/3.0/trademarks/pt-br.mspx" target="_top">Marcas comerciais</a> |</nobr><wbr></wbr><nobr><a href="http://go.microsoft.com/fwlink/?LinkId=81184&amp;clcid=0x416" target="_parent">Política de Privacidade</a></nobr></div></td></tr></table><div style="display:none"><script type="text/javascript">var gDomain="m.webtrends.com";var gDcsId="dcscvii32000004rru80h0dwm_7b7m";var gFpc="WT_FPC";if(document.cookie.indexOf(gFpc+"=")==-1){document.write("<SCR"+"IPT TYPE='text/javascript' SRC='"+"http"+(window.location.protocol.indexOf('https:')==0?'s':'')+"://"+gDomain+"/"+gDcsId+"/wtid.js"+"'><\/SCR"+"IPT>");}</script><script src="http://js.microsoft.com/library/mnp/2/wt/js/wt.js" type="text/javascript"></script><noscript><img border="0" name="DCSIMG" width="1" height="1" src="http://m.webtrends.com/dcscvii32000004rru80h0dwm_7b7m/njs.gif?dcsuri=/nojavascript&WT.js=No"/></noscript></div><layer visibility="hide"><div style="display:none"><img alt="" width="0" height="0" border="0" hspace="0" vspace="0" src="http://c.microsoft.com/trans_pixel.asp?source=www&amp;TYPE=PV&amp;p=downloads&amp;URI=%2fdownloads%2fdetails.aspx%3ffamilyid%3dFFED7C76-0B75-4F57-9B63-3961A8B449F6%26displaylang%3dpt-br&amp;GUID=1F4FC18C-F71E-47FB-8FC9-612F8EE59C61&amp;lc=pt-br"></div></layer>
+</body>
+</html>
+
